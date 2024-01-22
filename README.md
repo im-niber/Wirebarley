@@ -11,7 +11,7 @@
 
 코드베이스로 UI를 개발하였습니다.
 
-### Architecure
+### Architecture
 
 MVVM(Model - View - ViewModel)로 구성하였습니다.
 
