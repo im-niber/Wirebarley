@@ -15,7 +15,7 @@ final class ViewModel {
     private var exchangeRates: [String: Double] = [:]
     private var country: Country = .KRW
     
-    var viewData: (exchangeRates: [String: Double], time: Int) = ([:], 0) {
+    private var viewData: (exchangeRates: [String: Double], time: Int) = ([:], 0) {
         didSet { onUpdated() }
     }
     
